@@ -1,0 +1,10 @@
+{
+    "name": "Python Flask Dev",
+    "dockerFile": "Dockerfile",
+    "appPort": [5000],
+    "postCreateCommand": "pip install -r requirements.txt && python app.py",
+    "settings": {},
+    "extensions": [
+        "ms-python.python"
+    ]
+}
